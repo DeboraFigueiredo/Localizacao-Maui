@@ -1,0 +1,30 @@
+Utiliza o mvvm 
+
+
+IMAP =  define métodos e propriedades para interagir
+com serviço de mapas, 
+
+IGeolocation = defini métodos para solicitar a localização atual
+do dispositivo, configurar a precisão 
+
+IConnectivity permite que o aplicativo verifique
+a conexao de rede e 
+
+o atributo relay command serve pra indicar que pode ser
+acionado por um elemento de interface do usuario
+
+Funcoes que sao parecidas mas sao diferentes pq uma verifica a conexao globalmente
+e a outra localmente 
+
+No var location está solicitando a localização atual do dispositivo
+
+GetLocationAsync - Definir alguns parâmetros para a solicitação 
+de localização.
+
+DesiredAccuracy -  Define um tempo limite para a operação
+de solicitação de localização.
+
+RequestFullAccuracy -  Solicita a precisão máxima possível 
+na determinação da localização.
+
+e aqui a funcao que abre o mapa no celular
